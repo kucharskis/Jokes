@@ -10,7 +10,7 @@ import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 
-public class HIstoryTest {
+public class HistoryTest {
 
     History history;
 
@@ -33,5 +33,4 @@ public class HIstoryTest {
 
         assertEquals(new HashSet<>(), history.getHistory());
     }
-
 }
