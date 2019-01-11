@@ -14,6 +14,7 @@ public class CommandLineApp {
 
 
     public void run() throws Exception {
+        UnirestStarter.UnirestStart();
         History history = new FileHistory("history.txt");
         if (jokes) {
             JokeRetriever jokeRetriever = new RESTJokeRetriever();
