@@ -7,7 +7,7 @@ Generates jokes about Chuck Norris from chucknorris.io using API. One joke appea
 - `-j` `--Jokes` print jokes
 - `-d` `--Delete` delete history of jokes
 
-### ExampleS:
+### Examples:
 
 - `-j` print 10 jokes
 - `-j -a 20` print 20 jokes
